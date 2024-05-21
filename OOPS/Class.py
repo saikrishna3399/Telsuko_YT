@@ -1,0 +1,2 @@
+# Class - Design
+# Object - Instance
