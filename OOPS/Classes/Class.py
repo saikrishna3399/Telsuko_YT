@@ -12,10 +12,10 @@
 
 class Computer:
 
-    def __init__(self, cpu, ram):  # init to initialise variables
+    def __init__(self, cpu_comp, ram_comp):  # init to initialise variables
         # self = comp1, cpu = M3, ram = 32
-        self.cpu = cpu
-        self.ram = ram
+        self.cpu = cpu_comp
+        self.ram = ram_comp
 
     def config(self):  # Method - Behaviour (Same as function, but we call it Method in Class )
         print("Config is ", self.cpu, self.ram)
