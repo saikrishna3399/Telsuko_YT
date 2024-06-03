@@ -23,6 +23,7 @@ class Computer:
 
 comp1 = Computer('M3', 32) # Defining Variables or Config Data passing Values to Init
 comp2 = Computer('i9', 16)
+comp3 = Computer('Arm 6', 8)
 
 print(type(comp1))
 
